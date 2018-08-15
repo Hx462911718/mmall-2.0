@@ -1,0 +1,39 @@
+
+
+
+/* -------------------------------------模态框 start----------------------------------*/
+.up-modal-header{ cursor:pointer; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; -khtml-user-select: none; user-select: none; }
+.up-modal-content{ position: absolute; width: 100%; margin-left: -50%; }
+.up-modal-dialog{ margin: 0!important; }
+.up-modal-body:before {display: table;content: " ";clear: both;}
+.page_scroll{ height: 100%}
+.ex_tab2.up-modal-header{ border-bottom: 0; padding-bottom: 0; }
+.up-modal-header .ex_tab2_right { position: absolute; right: 39px; top: 0; line-height: 65px; }
+.modal_main{ position: fixed; left: auto; top: auto; bottom: -300px; right: 0; width: 300px; height: 200px; background: #fff; border-radius: 3px; overflow: hidden; -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5); box-shadow: 0 5px 15px rgba(0,0,0,.5); transition: bottom .5s linear; -moz-transition:bottom .5s linear; -webkit-transition:bottom .5s linear; -o-transition:bottom .5s linear; }
+.up-in .modal_main{ bottom: 0; }
+.modal_head{ height: 32px; line-height: 32px; background: #629fd6; padding: 0 10px; color: #fff; }
+.modal_head h4{ color: #333; }
+.modal_head button{ padding-top: 5px; opacity: .8; }
+.modal_head button span{ color: #fff; }
+.modal_head img{ height: 20px; width: auto; margin-right: 5px; margin-top: -4px; }
+.modal_con{ padding: 5px 10px; }
+.up-modal[data-clickable="true"]{ overflow: visible!important; width: 0!important; height: 0!important; }
+.modal_foot{ position: absolute; bottom: 0; left: 0; height: 40px; line-height: 40px; width: 100%; border-top: 1px solid #ddd; }
+.modal_foot a{ padding: 0 20px; }
+.modal_loading .up-modal-dialog{ width: 50px; }
+.modal_loading .up-modal-content{ background: transparent; box-shadow: none; border: 0; font-size: 28px; color: #f7f7f7; width: 50px; height: 50px; line-height: 50px; text-align: center; }
+
+.menu_box{ list-style: none; padding: 0; width: 100%; padding-left: 3%; }
+.menu_box li{ width: 30%; height: 32px; line-height: 32px; border: 1px solid #09c; margin: 6px 1%; padding-left: 5px; float: left; min-width: 170px; cursor: pointer; }
+.menu_box li i{ font-size: 14px; color: #516176; }
+.menu_box li a{ width: 32px; height: 100%; text-align: center; color: #09c; border-left: 1px solid #09c; float: right; font-size: 18px; }
+.menu_box li a:hover{ text-decoration: none; color: #09c; }
+.select_menu_box li{ border-color: #d3dce3; }
+.select_menu_box li:hover{ border-color: #09c; }
+.select_menu_box li i{ color: #aeb9c2; }
+.select_menu_box li a{ display: none; }
+.select_menu_box li:hover a{ display: block; }
+.sidetab_right .sidetab{ left: auto!important; right: 0!important; }
+.sidetab_right{ padding-right: 180px; }
+/* -------------------------------------模态框 end----------------------------------*/
+

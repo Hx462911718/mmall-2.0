@@ -1,0 +1,196 @@
+.btn-line-primary i,
+.category .category-info i,
+.footer-warrant-area .footer-warrant-logo span,
+.goods-rolling .grid-btn span,
+.home-channel-list li.s3 .icon-notice span,
+.hungBar-feedback i,
+.hungBar-feedback:after,
+.hungBar-for-help i,
+.hungBar-for-help:after,
+.hungBar-olcs-web i,
+.hungBar-olcs-web:after,
+.hungBar-top i,
+.i-mall-huaban .p-img span,
+.i-mall-prompt .user-info .user-info-detail a:before,
+.minicart-pro-item .p-choose i,
+.minicart-pro-item .p-tags:before,
+.search-bar .search-bar-form .button,
+.shortcut .s-dropdown .icon-minicart:before,
+.slogan li i {
+    background: url(https://res.vmallres.com/20180504/images/echannel/icon-common.png)
+}
+
+.search-bar .search-bar-form .button {
+    background-position: 0 -25px
+}
+
+.minicart-pro-item .p-tags:before {
+    background-position: -28px -99px
+}
+
+.goods-rolling .grid-btn.btn-prev span {
+    background-position: -101px -1px
+}
+
+.goods-rolling .grid-btn.btn-next span {
+    background-position: -112px -1px
+}
+
+.hungBar-top i {
+    background-position: -123px -1px
+}
+
+.hungBar-feedback i {
+    background-position: -151px -1px
+}
+
+.hungBar-for-help i {
+    background-position: -166px -1px
+}
+
+.hungBar-olcs-web i {
+    background-position: -136px -1px
+}
+
+.btn-line-primary i {
+    background-position: -101px -23px
+}
+
+.slogan .s1 i {
+    background-position: 0 -151px
+}
+
+.slogan .s2 i {
+    background-position: -94px -151px
+}
+
+.slogan .s3 i {
+    background-position: -141px -151px
+}
+
+.slogan .s4 i {
+    background-position: -47px -151px
+}
+
+.hungBar-for-help:after {
+    background-position: -80px -199px
+}
+
+.hungBar-feedback:after {
+    background-position: -40px -199px
+}
+
+.hungBar-olcs-web:after {
+    background-position: 0 -199px
+}
+
+.category .category-info i {
+    background-position: -9px -214px
+}
+
+.category-index .category-list li.active i,
+.category-index .category-list li.active i {
+    background-position: -2px -214px
+}
+
+.i-mall-huaban .p-img span {
+    width: 50px;
+    height: 50px;
+    display: block
+}
+
+.i-mall-huaban .p-img span.img01 {
+    background-position: -50px 0
+}
+
+.i-mall-huaban .p-img span.img02 {
+    background-position: -50px -50px
+}
+
+.i-mall-huaban .p-img span.img03 {
+    background-position: -50px -100px
+}
+
+.footer-warrant-area .footer-warrant-logo span {
+    width: 79px;
+    height: 16px;
+    display: block;
+    background-position: -101px -45px
+}
+
+.home-channel-list li.s3 .icon-notice span {
+    width: 31px;
+    height: 13px;
+    display: block;
+    position: relative;
+    top: 17px;
+    margin: 0 auto;
+    background-position: -17px -214px
+}
+
+.home-channel-list li.s2 li .p-img {
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 40px
+}
+
+.home-channel-list li.s2 li .p-img img {
+    position: absolute;
+    width: auto;
+    height: auto
+}
+
+.home-channel-list li.s2 li .p-img .img0 {
+    left: 0
+}
+
+.home-channel-list li.s2 li .p-img .img1 {
+    left: -40px
+}
+
+.home-channel-list li.s2 li .p-img .img2 {
+    left: -80px
+}
+
+.home-channel-list li.s2 li .p-img .img3 {
+    left: -120px
+}
+
+.home-channel-list li.s2 li .p-img .img4 {
+    left: -160px
+}
+
+.home-channel-list li.s2 li .p-img .img5 {
+    left: -200px
+}
+
+.home-channel-list li.s3 .p-info li a span {
+    display: inline-block;
+    height: 20px;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    top: 6px;
+    width: 20px
+}
+
+.home-channel-list li.s3 .p-info li a img {
+    width: auto;
+    height: auto;
+    margin: 0;
+    position: absolute
+}
+
+.home-channel-list li.s3 .p-info li a .img0 {
+    left: -240px
+}
+
+.home-channel-list li.s3 .p-info li a .img1 {
+    left: -260px
+}
+
+.home-channel-list li.s3 .p-info li a .img2 {
+    left: -280px
+}
