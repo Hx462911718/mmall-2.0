@@ -19,10 +19,11 @@ public class CloseOrderTask {
     //每分钟执行一次
     @Scheduled(cron = "0 0/1 * * * ?")
     public  void  closeOrder(){
-        log.info("定时任务开启");
-        int days = Integer.parseInt(PropertiesUtil.getProperty("close.order.task.time.day","3"));
-        orderService.insertProductByOrder(days);
-        log.info("关闭");
+//        log.info("定时任务开启");
+//        int days = Integer.parseInt(PropertiesUtil.getProperty("close.order.task.time.day","3"));
+//        orderService.insertProductByOrder(days);
+//        log.info("关闭");
     }
+
 
 }

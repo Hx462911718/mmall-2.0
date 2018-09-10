@@ -49,6 +49,14 @@
         <property name="maxInMemorySize" value="4096" />
         <property name="defaultEncoding" value="UTF-8"></property>
     </bean>
-
+    <!--拦截器-->
+    <mvc:interceptors>
+            <!--拦截manage下xx.do-->
+            <mvc:interceptor>
+                <mvc:mapping path="/manage/**" />
+                <mvc:exclude-mapping path="/manage/user/login.do"/>
+                <bean class="com.mmall.Controller.common.interceptor.AuthorityInterceptor"></bean>
+            </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>
