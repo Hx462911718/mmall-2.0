@@ -10,6 +10,7 @@ import com.mmall.service.IUserService;
 import com.mmall.utils.CookieUtil;
 import com.mmall.utils.JedisPoolUtil;
 import com.mmall.utils.JsonUtil;
+import com.mmall.utils.RedisShardPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -51,7 +52,7 @@ public class UserController {
         if (response.isSuccess()) {
             CookieUtil.writeLoginCookie(httpServletResponse, session.getId());
 //            String cookieValue = CookieUtil.readLoginToken(request);
-            JedisPoolUtil.setWithExpireTime(session.getId(), JsonUtil.obj2String(response.getData()), Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
+            RedisShardPoolUtil.setWithExpireTime(session.getId(), JsonUtil.obj2String(response.getData()), Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
             //session.setAttribute(Const.CURRENT_USER,response.getData());
         }
         return response;

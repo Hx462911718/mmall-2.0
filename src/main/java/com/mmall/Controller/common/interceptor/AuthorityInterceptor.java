@@ -27,6 +27,8 @@ import java.util.Map;
 public class AuthorityInterceptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
+
+
         //解析handler
         HandlerMethod handlerMethod = (HandlerMethod) o;
         String methoName = handlerMethod.getMethod().getName();
@@ -47,6 +49,12 @@ public class AuthorityInterceptor implements HandlerInterceptor{
 
             }
             param.append(mapKey).append("=").append(mapValue);
+        }
+
+        if(StringUtils.equals(classNme,"UserManageController") && StringUtils.equals(methoName,"login")){
+            log.info("拦截器拦截到的请求，className:{},methodName:{}",classNme,methoName);
+            //不打印参数，当前请求为登录请求，包含账号和密码，防止日志泄露
+            return true;
         }
         String  loginToken = CookieUtil.readLoginToken(httpServletRequest);
         User user = null;
